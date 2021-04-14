@@ -10,7 +10,7 @@ describe("My First Test", function()
      cy.get('.mvp-nav-search-but').click()
      cy.get('#s').click()
      cy.get('#s').type('cricket news').type('{enter}')
-     cy.get('#s').type('{enter}')
+     //cy.get('#s').type('{enter}')
      cy.get('#mvp-top-nav-logo').click()
     
     })
